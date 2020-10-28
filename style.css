@@ -1,6 +1,8 @@
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 
@@ -50,7 +52,7 @@ nav {
 }
 
 .container {
-    width: 994px;
+    max-width: 994px;
     margin: 0 auto;
     
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -166,7 +168,7 @@ main .container {
 }
 
 .marketing-images {
-    width: 842px;
+    max-width: 842px;
     height: 308px;
     margin: 60px auto 0 auto;
     display: flex;
@@ -517,7 +519,7 @@ input.apple-switch:checked:after {
 /* Brands Section Start*/
 
 .brands-block {
-    width: 842px;
+    max-width: 842px;
     margin: 0 auto;
     height: 464px;
 }
@@ -540,7 +542,7 @@ input.apple-switch:checked:after {
 }
 
 .comments {
-    width: 852px;
+    max-width: 852px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -570,7 +572,7 @@ input.apple-switch:checked:after {
 /* Brands Section End*/
 
 footer {
-    width: 100vw;
+    max-width: 100vw;
     height: 540px;
     margin-top: -80px;
     background-image: url('images/Group_7footer.png');
