@@ -5,10 +5,9 @@ body {
 
 
 header {
-    background-image: url('./images/Rectangle\ 1.png');
+    background-image: url('images/Rectangle_1.png');
     background-repeat: no-repeat;
     background-size: cover;
-  
     height: 788px;
     width: 100%;
 }
@@ -157,7 +156,7 @@ input:focus {
 
 main {
     height: 1670px;
-    background-image: url('./images/Rectangle\ 2.png');
+    background-image: url('images/Rectangle_2.png');
     border-top: none;
 }
 
@@ -187,19 +186,19 @@ main .container {
 }
 
 .img-1 {
-    background: linear-gradient(180.1deg, rgba(44, 40, 40, 0) 0.09%, rgba(44, 40, 40, 0.5) 55.06%, rgba(44, 40, 40, 0.664052) 100.46%, #2C2828 148.14%), url('./images/Group\ 4.png'), #C4C4C4;
+    background: linear-gradient(180.1deg, rgba(44, 40, 40, 0) 0.09%, rgba(44, 40, 40, 0.5) 55.06%, rgba(44, 40, 40, 0.664052) 100.46%, #2C2828 148.14%), url('images/Group_4.png'), #C4C4C4;
     align-self: flex-end;
 }
 
 .img-2 {
     z-index: 9999;
-    background: linear-gradient(180.1deg, rgba(44, 40, 40, 0) 0.09%, rgba(44, 40, 40, 0.5) 55.06%, rgba(44, 40, 40, 0.664052) 100.46%, #2C2828 148.14%), url('./images/Group\ 5.png'), #C4C4C4;
+    background: linear-gradient(180.1deg, rgba(44, 40, 40, 0) 0.09%, rgba(44, 40, 40, 0.5) 55.06%, rgba(44, 40, 40, 0.664052) 100.46%, #2C2828 148.14%), url('images/Group_5.png'), #C4C4C4;
     
     
 }
 
 .img-3 {
-    background: linear-gradient(180.1deg, rgba(44, 40, 40, 0) 0.09%, rgba(44, 40, 40, 0.5) 55.06%, rgba(44, 40, 40, 0.664052) 100.46%, #2C2828 148.14%), url('./images/Group\ 6.png'), #C4C4C4;
+    background: linear-gradient(180.1deg, rgba(44, 40, 40, 0) 0.09%, rgba(44, 40, 40, 0.5) 55.06%, rgba(44, 40, 40, 0.664052) 100.46%, #2C2828 148.14%), url('images/Group_6.png'), #C4C4C4;
     align-self: flex-end;
 }
 
@@ -293,7 +292,7 @@ main .container {
 
 .post-info {
     height: 128px;
-    background: url('./images/Rectangle\ 14.png') no-repeat;
+    background: url('images/Rectangle_14.png') no-repeat;
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
@@ -574,7 +573,7 @@ footer {
     width: 100vw;
     height: 540px;
     margin-top: -80px;
-    background-image: url('./images/Group\ 7footer.png');
+    background-image: url('images/Group_7footer.png');
     background-position-x: center;
     color: #FFFFFF;
 }
